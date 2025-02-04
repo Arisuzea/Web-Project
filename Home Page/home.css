@@ -112,28 +112,26 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: black; /* Fallback color */
+    background: black;
     opacity: 0;
     pointer-events: none;
     transition: opacity 1s ease;
 }
 
-/* Video styles to cover the full screen */
+
 .video-background video {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-/* Content should stay in place initially */
 .main-content {
     position: relative;
-    z-index: 2; /* Ensure it's above the background */
+    z-index: 2; 
 }
 
 .cta-button {
     position: relative;
-    z-index: 3; /* Make sure button is always above */
+    z-index: 3; 
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
